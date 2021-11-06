@@ -83,9 +83,9 @@
 							class="room__author"
 						>
 							<div class="avatar avatar--small">
-								<img src="{% static 'images/avatar.svg' %}" />
+								<img src="{{room.host.avatar.url}}" />
 							</div>
-							<span>@{{room.host.username}}</span>
+							<span>{{room.host.name}}</span>
 						</a>
 					</div>
 					<div class="room__details">
@@ -105,9 +105,9 @@
 										class="thread__authorInfo"
 									>
 										<div class="avatar avatar--small">
-											<img src="{% static 'images/avatar.svg' %}" />
+											<img src="{{message.user.avatar.url}}" />
 										</div>
-										<span>@{{message.user}}</span>
+										<span>{{message.user.name}}</span>
 									</a>
 									<span class="thread__date"
 										>{{message.created|timesince}}</span
@@ -152,7 +152,6 @@
 				</form>
 				{% endif%}
 			</div>
-      
 		</div>
 
 		<!-- Room End -->
@@ -166,7 +165,7 @@
 				{% for user in participants %}
 				<a href="{% url 'user-profile' user.id %}" class="participant">
 					<div class="avatar avatar--medium">
-						<img src="{% static 'images/avatar.svg' %}" />
+						<img src="{{user.avatar.url}}" />
 					</div>
 					<p>
 						{{user.username}}

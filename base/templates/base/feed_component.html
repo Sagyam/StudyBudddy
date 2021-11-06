@@ -6,10 +6,12 @@
 			href="{% url 'user-profile' room.host.id %}"
 			class="roomListRoom__author"
 		>
-			<div class="avatar avatar--small">
-				<img src="{% static 'images/avatar.svg' %}" />
+			<div class="avatar avatar--medium">
+				<img src="{{room.host.avatar.url}}" />
 			</div>
-			<span>@{{room.host.username}}</span>
+			{{room.host.name}}
+			<br />
+			@{{room.host.username}}
 		</a>
 		<div class="roomListRoom__actions">
 			<span>{{room.created|timesince}}</span>
