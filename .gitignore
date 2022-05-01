@@ -3,6 +3,8 @@
 __pycache__/
 *.py[cod]
 *$py.class
+# Ignore all pyc files on Python 3.
+*.pyc
 
 # C extensions
 *.so
@@ -35,3 +37,5 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+
+/staticfiles/
