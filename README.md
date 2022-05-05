@@ -1,4 +1,4 @@
-[![wakatime](https://wakatime.com/badge/user/4ce09006-1b8c-491f-ace1-a70b32d5fc1c/project/ee54d9ee-9d5e-4e48-af7d-4004d2d27fa9.svg?style=for-the-badge?style=for-the-badge)](https://wakatime.com/badge/user/4ce09006-1b8c-491f-ace1-a70b32d5fc1c/project/ee54d9ee-9d5e-4e48-af7d-4004d2d27fa9?style=for-the-badge)
+[![wakatime](https://wakatime.com/badge/user/4ce09006-1b8c-491f-ace1-a70b32d5fc1c/project/ee54d9ee-9d5e-4e48-af7d-4004d2d27fa9.svg?style=for-the-badge)](https://wakatime.com/badge/user/4ce09006-1b8c-491f-ace1-a70b32d5fc1c/project/ee54d9ee-9d5e-4e48-af7d-4004d2d27fa9?style=for-the-badge)
 
 <div align="center">
 <img width="30%" src="https://user-images.githubusercontent.com/72341453/134747028-7e2d90cc-a92f-4f66-815e-54a0d50cca54.PNG">
