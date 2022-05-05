@@ -1,60 +1,47 @@
+
 [![wakatime](https://wakatime.com/badge/user/4ce09006-1b8c-491f-ace1-a70b32d5fc1c/project/ee54d9ee-9d5e-4e48-af7d-4004d2d27fa9.svg?style=for-the-badge)](https://wakatime.com/badge/user/4ce09006-1b8c-491f-ace1-a70b32d5fc1c/project/ee54d9ee-9d5e-4e48-af7d-4004d2d27fa9?style=for-the-badge)
 
 <div align="center">
 <img width="30%" src="https://user-images.githubusercontent.com/72341453/134747028-7e2d90cc-a92f-4f66-815e-54a0d50cca54.PNG">
+</div>
 
 # StudyBuddy
-</div>
+
 
 ### Cloning the repository
 
---> Clone the repository using the command below :
+Clone the repository using the command below :
 ```bash
-git clone https://github.com/divanov11/StudyBud.git
-
+git clone https://github.com/Sagyam/StudyBudddy.git
 ```
-
---> Move into the directory where we have the project files : 
+Move into the directory where we have the project files : 
 ```bash
-cd StudyBud
-
+cd StudyBuddy
 ```
-
---> Create a virtual environment :
+Create a virtual environment :
 ```bash
-# Let's install virtualenv first
 pip install virtualenv
-
-# Then we create our virtual environment
-virtualenv envname
-
+virtualenv <<envname>>
 ```
+> Choose << envname >> as name of your environment
 
---> Activate the virtual environment :
+Activate the virtual environment :
 ```bash
-envname\scripts\activate
-
+<<envname>>\scripts\activate
 ```
-
---> Install the requirements :
+Install the requirements :
 ```bash
 pip install -r requirements.txt
-
 ```
-
-#
 
 ### Running the App
 
---> To run the App, we use :
+To run the App, we use :
 ```bash
 python manage.py runserver
-
 ```
 
-> ⚠ Then, the development server will be started at http://127.0.0.1:8000/
-
-#
+> Then, the development server will be started at http://127.0.0.1:8000/
 
 ### App Preview :
 
@@ -76,5 +63,3 @@ python manage.py runserver
 <img src="https://user-images.githubusercontent.com/72341453/134747155-3ca5b55f-b064-4741-aeae-abe90bddf41e.PNG">  
 </td>
 </table>
-
-
