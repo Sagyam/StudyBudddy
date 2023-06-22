@@ -1,3 +1,6 @@
+[build]
+builder = "NIXPACKS"
+
 [deploy]
 numReplicas = 1
 startCommand = "gunicorn djangoBackend.wsgi:application --bind=0.0.0.0:8000"
